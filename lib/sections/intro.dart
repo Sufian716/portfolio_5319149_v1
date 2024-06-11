@@ -103,7 +103,7 @@ class IntroSection extends StatelessWidget {
                       ),
                       const SizedBox(height: 15),
                       Text(
-                        "Ich bin ein Student mit Sitz in Deutschland, der eine Leidenschaft für Programmierung und Design hat, getrieben von dem Wunsch, zu innovieren und Ideen durch Code in die Realität umzusetzen.",
+                        "Ich bin ein Student mit Sitz in Deutschland und lebe meine Leidenschaft für Programmierung und Design voll aus. Als Freelancer habe ich die Freiheit, an verschiedenen Projekten zu arbeiten und meine Fähigkeiten kontinuierlich zu verbessern. Meine Motivation, durch Code innovative Ideen zum Leben zu erwecken, treibt mich an, ständig Neues zu lernen und mich weiterzuentwickeln. Ich liebe es, kreative Lösungen zu finden und meinen Beitrag zur Entwicklung einzigartiger Produkte und Dienstleistungen zu leisten.",
                         style: GoogleFonts.roboto(
                             fontSize: 16,
                             color: Colors.grey.shade800,

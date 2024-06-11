@@ -3,6 +3,7 @@ import 'package:lottie/lottie.dart';
 import 'package:portfolio/widgets/section_title.dart';
 import 'package:portfolio/widgets/skills/skill_box.dart';
 import 'package:portfolio/widgets/skills/skills_category_title.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class SkillSection extends StatelessWidget {
   const SkillSection({super.key});
@@ -16,6 +17,16 @@ class SkillSection extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         const SectionTitle(sectionTitle: "Fähigkeiten"),
+        const SizedBox(height: 10),
+                      //Text(
+                      //  "IT-Assistent/Fachinformatiker 2017-2019 Werner von Siemens Schule",
+                     //   style: GoogleFonts.roboto(
+                     //       fontSize: 40,
+                     //       color: Colors.grey.shade800,
+                     //       letterSpacing: 1.5),
+                     //   textAlign: isMobile ? TextAlign.center : null,
+                     // ),
+        
         const SizedBox(height: 50),
         Row(
           mainAxisAlignment: isMobile || isTablet

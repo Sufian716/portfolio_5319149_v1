@@ -42,7 +42,7 @@ class ProjectProvider extends ChangeNotifier {
       projectDescription: "",
       techStack: [],
       images: [
-        "assets/projects/comingsoon/image1.jpg",
+        "assets/projects/comingsoon/image1.gif",
       ],
     ),
 
