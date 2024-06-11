@@ -202,15 +202,16 @@ class _HomePageState extends State<HomePage> {
           if (_isLoading)
             AnimatedOpacity(
               opacity: _isLoading ? 1.0 : 0.0,
-              duration: const Duration(milliseconds: 500),
+              duration: const Duration(milliseconds: 300),
               child: Container(
                 height: MediaQuery.of(context).size.height,
                 width: MediaQuery.of(context).size.width,
                 color: Colors.white,
                 child: isMobile || isTablet
-                    ? const Center(
-                        child: CircularProgressIndicator(
-                          color: ConstColors.primaryColor,
+                    ? Center(
+                        child: LottieBuilder.asset(
+                            "assets/loading_animation.json",
+                            height: 300,
                         ),
                       )
                     : Center(

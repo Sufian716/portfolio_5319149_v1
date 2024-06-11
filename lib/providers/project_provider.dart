@@ -8,7 +8,7 @@ class ProjectProvider extends ChangeNotifier {
     ProjectModel(
       projectName: "Portfolio Website",
       projectDescription:
-          "Personal portfolio website of Sufian Bourkha Tahiri. A portfolio website is an online platform where individuals or organizations showcase their work, skills, and achievements. It serves as a digital resume or portfolio.",
+          "Eine Portfolio-Website ist eine Online-Plattform, auf der man seine Arbeiten, Fähigkeiten und Erfolge zeigt. Sie dient als digitaler Lebenslauf oder Portfolio.",
       techStack: [
         "Flutter",
         "Dart",
@@ -21,6 +21,21 @@ class ProjectProvider extends ChangeNotifier {
         "assets/projects/portfolio/image5.png",
       ],
     ),
+
+    ProjectModel(
+      projectName: "Rolloutkoordinator bei ZDF",
+      projectDescription:
+          "Ich war als Rolloutkoordinator beim ZDF tätig. In dieser Rolle habe ich die strategische Planung und Durchführung komplexer IT-Projekte übernommen. Dazu gehörten effektives Ressourcenmanagement und die taktische Teamkoordination. Mit großer Genauigkeit führte ich anspruchsvolle Funktionstests durch und stellte eine strenge Qualitätssicherung sicher. Darüber hinaus instruierte und bildete ich Teammitglieder weiter. Zu meinen Aufgaben zählten die profunde Konfiguration von Laptops und die gezielte Aktualisierung von iOS-Geräten. Ich überwachte kontinuierlich den Projektfortschritt und erstellte präzise Berichte. Zudem sorgte ich für eine genaue Prozessüberwachung und behob schnell Probleme vor Ort.",
+      techStack: [
+        "Sitetracker",
+        "Matrix42",
+        "Activ Directory",
+      ],
+      images: [
+        "assets/projects/portfolio/zdf_logo.png",
+        
+      ],
+    ),
     //coming soon project (default)
     ProjectModel(
       projectName: "Coming Soon",
@@ -30,6 +45,8 @@ class ProjectProvider extends ChangeNotifier {
         "assets/projects/comingsoon/image1.jpg",
       ],
     ),
+
+    
   ];
 
   void changeSelectedProject(int index) {

@@ -55,7 +55,7 @@ class _ProjectSectionState extends State<ProjectSection> {
                         spreadRadius: 2,
                         blurRadius: 2,
                         offset:
-                            const Offset(0, 2), // changes position of shadow
+                            const Offset(0, 2),
                       ),
                     ]),
                 child: Column(
