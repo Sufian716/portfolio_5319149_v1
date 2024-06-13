@@ -25,9 +25,8 @@ class IntroSection extends StatelessWidget {
           bottom: 20),
       child: Stack(
         children: [
-          isMobile || isTablet
-              ? const SizedBox()
-              : Opacity(
+           SizedBox(),
+               Opacity(
                   opacity: 0.3,
                   child: LottieBuilder.asset(
                     "assets/dots_animation.json",
@@ -97,6 +96,7 @@ class IntroSection extends StatelessWidget {
                               TypewriterAnimatedText('A Student'),
                               TypewriterAnimatedText('A Developer'),
                               TypewriterAnimatedText('A Boxer'),
+                              TypewriterAnimatedText('A Freelancer'),
                             ],
                           ),
                         ),
